@@ -6,8 +6,8 @@
         document.getElementById('table').style.visibility = "visible";
 
 
-        var curent = "http://api.openweathermap.org/data/2.5/weather?q=" + cityID + "&appid=06843ba2a538a0f26e4d05e52e3de9ae";
-        var total = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityID + "&units=metric&APPID=06843ba2a538a0f26e4d05e52e3de9ae";
+        var curent = "https://api.openweathermap.org/data/2.5/weather?q=" + cityID + "&appid=06843ba2a538a0f26e4d05e52e3de9ae";
+        var total = "https://api.openweathermap.org/data/2.5/forecast?q=" + cityID + "&units=metric&APPID=06843ba2a538a0f26e4d05e52e3de9ae";
 
 
         fetch(curent)
